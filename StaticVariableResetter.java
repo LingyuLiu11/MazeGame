@@ -7,7 +7,6 @@ public class StaticVariableResetter
 {   
     public static void resetMenuVariables()
     {
-        //resetat variabile ce tin de meniu
         Options.gamemode=-1;
         Options.isPlaying=false;    
         Options.scoreWindowShown=false;
