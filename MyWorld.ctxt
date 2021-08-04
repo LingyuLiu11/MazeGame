@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (Lingyu\ Liu)\ \r\n\ @version\ (8/3/2021)\r\n\ This\ is\ inspired\ by\ https\://github.com/mehanix/Blackout,\ in\ particular\ the\r\n\ generation\ algorithm\ of\ the\ maze.\ Great\ thanks\ to\ Mehanix\!\r\n
+comment1.params=w
+comment1.target=MyWorld(Options)
+comment10.params=
+comment10.target=void\ checkTimer()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=row\ col
+comment3.target=void\ generateMap(int,\ int)
+comment4.params=row\ col
+comment4.target=void\ generateMaze(int,\ int)
+comment5.params=gen\ row\ col
+comment5.target=void\ drawMaze(Generator,\ int,\ int)
+comment6.params=gen
+comment6.target=void\ placeObjects(Generator)
+comment7.params=
+comment7.target=void\ checkVictory()
+comment8.params=
+comment8.target=void\ checkLose()
+comment9.params=
+comment9.target=boolean\ isBestTime()
+numComments=11
