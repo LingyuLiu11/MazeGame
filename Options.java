@@ -25,7 +25,7 @@ public class Options extends World
     GreenfootImage img;
     public Options()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+       
         super(928, 672, 1, false);
         resetStaticVariables();
     }
@@ -59,7 +59,7 @@ public class Options extends World
     
     private void checkGamemode()
     {
-        //functia care se ocupa de trecerea din meniu in modurile diferite de joc sau in tutorial/pagina de scoruri
+        
         switch (gamemode)
         {
             //modul contra timp
@@ -73,7 +73,7 @@ public class Options extends World
                 }
                 break;
             }
-            //modul puzzle
+            
             case 2:
             {
                 if (isPlaying == false)
@@ -85,9 +85,9 @@ public class Options extends World
                 }
                 break;
             }
-            //afisarea tutorialului
             
-            //afisarea paginii de scoruri
+            
+            
             case 3:
             {
                 if (scoreWindowShown==false)
@@ -103,14 +103,11 @@ public class Options extends World
                         else
                             showText("You have never played",getWidth()/2,getHeight()/2-50);
                         scoreWindowShown=true;
-                    } catch (IOException ex) 
-                    {
-                        showText("A aparut o eroare la citirea scorurilor din fisiere",getWidth()/2,getHeight()/2-50);
                     }
                 }
             }
         }
-        //stergerea textului la inchiderea ferestrei de scor
+        
         if (shouldResetText==true)
         {
             showText(" ",getWidth()/2,getHeight()/2-50);   
@@ -121,7 +118,7 @@ public class Options extends World
     
     private void resetStaticVariables()
     {       
-        //resetarea variabilelor statice folosite in proiect
+        
         StaticVariableResetter.resetMenuVariables();
         StaticVariableResetter.resetMyWorldVariables();
     }
