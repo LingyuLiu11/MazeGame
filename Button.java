@@ -35,8 +35,7 @@ public class Button extends Actor
         
         txt = text[type];
         GreenfootImage t = new GreenfootImage(fontSize*txt.length()+fontSize, fontSize);
-        //t.setFont(new Font("Serif", Font.PLAIN, fontSize));
-        //t.setColor(Color.WHITE);
+        
         t.drawString(txt, 22, 20);
         
         btnPosY=240+type*90;
